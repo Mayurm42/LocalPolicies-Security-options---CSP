@@ -1,0 +1,137 @@
+ <Replace>
+  <CmdID>2</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableGuestAccountStatusy</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>1</Data>
+            </Item>
+        </Replace>   
+		<Replace>
+  <CmdID>3</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>1</Data>
+            </Item>
+        </Replace>
+		<Replace>
+  <CmdID>4</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotRequireCTRLALTDEL</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>0</Data>
+            </Item>
+        </Replace>
+			<Replace>
+  <CmdID>5</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTextForUsersAttemptingToLogOn</LocURI>
+                </Target>
+                <Meta>
+                  <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>Type your message here</Data>
+            </Item>
+        </Replace>
+		<Replace>
+  <CmdID>6</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTitleForUsersAttemptingToLogOn</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>"Type your title"</Data>
+            </Item>
+        </Replace>
+		<Replace>
+  <CmdID>7</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_AllowUIAccessApplicationsToPromptForElevation</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>0</Data>
+            </Item>
+        </Replace>
+		<Replace>
+  <CmdID>8</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>1</Data>
+            </Item>
+        </Replace>
+		<Replace>
+  <CmdID>9</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>1</Data>
+            </Item>
+        </Replace>
+		<Replace>
+  <CmdID>10</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>1</Data>
+            </Item>
+        </Replace>
+		<Replace>
+  <CmdID>11</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_SwitchToTheSecureDesktopWhenPromptingForElevation</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>1</Data>
+            </Item>
+        </Replace>
+		<Replace>
+		<CmdID>12</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">int</Format>
+                </Meta>
+                <Data>1</Data>
+            </Item>
+        </Replace>
+		
+		
+		
+ 
+		
